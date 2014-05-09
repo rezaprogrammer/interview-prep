@@ -1,6 +1,8 @@
 '''
 Created on May 8, 2014
 
+http://oj.leetcode.com/problems/word-search/
+
 @author: vsa
 '''
 
@@ -53,8 +55,8 @@ if __name__ == '__main__':
     word2 = 'SEE'
     word3 = 'ABCB'
     
-#     print('{0} exists in board: {1}.'.format(word1, Solution().exist(board, word1)))
+    print('{0} exists in board: {1}.'.format(word1, Solution().exist(board, word1)))
     print('{0} exists in board: {1}.'.format(word2, Solution().exist(board, word2)))
-#     print('{0} exists in board: {1}.'.format(word3, Solution().exist(board, word3)))
+    print('{0} exists in board: {1}.'.format(word3, Solution().exist(board, word3)))
     
     pass
